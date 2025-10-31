@@ -79,7 +79,7 @@ MENTAL_HEALTH_HOTLINES = {
 }
 
 # Hugging Face Token - 请替换为真实token
-HF_TOKEN = "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"
+HF_TOKEN = "hf_fLtbmDTQVasnFdjmBKajSVTSxrzShPq"
 
 headers = {"Authorization": f"Bearer {HF_TOKEN}"}
 
@@ -759,4 +759,5 @@ def api():
 # 测试示例
 if __name__ == '__main__':
     # 直接运行主函数，让用户输入语句
+
     main()
